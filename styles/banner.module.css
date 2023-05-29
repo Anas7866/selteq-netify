@@ -1,0 +1,121 @@
+.background_image_crousal
+{
+    background-image: url(https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/slide1.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.background_image_crousal2
+{
+    background-image: url(https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/slide2.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+.background_image_crousal3
+{
+    background-image: url(https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/slide3.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.font_security
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: #a6cbea;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 1%;
+}
+
+.heading 
+{
+    font-size: 49px!important;
+}
+
+.background_color_black
+{
+    background-color: black !important;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+
+.solution_heading
+{
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+}
+
+.solution_heading_mob
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 800 !important;
+font-size: 20px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.05em;
+}
+
+
+.paragraph_mobile
+{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.1em;
+color: #656776;
+}
+
+.background_learning
+{
+    background-color: rgb(239, 244, 248);
+    margin-top: 50px;
+}
+
+.learning_p
+{
+    color: gray;
+    padding-top: 4%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .background_image_crousal
+{
+    background-image: url(https://1864597015.rsc.cdn77.org/selteqreact/Assets/Images/hand.png);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    padding-top: 1%;
+}
+.font_security
+{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: #a6cbea;
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: black;
+    margin-bottom: 1%;
+    display: none;
+}
+
+
+  }
