@@ -15,6 +15,7 @@ import Newheader from '@/Components/Newheader/Newheader';
 import Newfooter from '@/Components/Newfooter/Newfooter';
 import Productrunning from '@/Components/Productrunning';
 import Businessdev from '@/Components/Businessdev';
+
 const Software = () => {
   return (
     <>

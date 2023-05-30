@@ -1,19 +1,16 @@
 import React, { useEffect } from 'react'
-import Head from "next/head"
-import styles from "../styles/index.module.css"
-import Video from "../Components/Landingpage/Video"
-import Youdream from "../Components/Landingpage/Youdream"
-import Webdevsec from "../Components/Landingpage/Webdevsec"
-import Parallex from "../Components/Landingpage/parallex"
-import Industries from "../Components/Landingpage/Industries"
-import Newheader from "@/Components/Newheader/Newheader"
-import Newfooter from "@/Components/Newfooter/Newfooter"
-import Videosec from "@/Components/Landingpage/Videosec"
-import Workflownew from "@/Components/Landingpage/Workflownew"
-import Letsconnect from "@/Components/Letsconnect/Letsconnect"
-
-
-
+import Head from 'next/head'
+import styles from '../styles/index.module.css'
+import Video from '../Components/Landingpage/Video'
+import Youdream from '../Components/Landingpage/Youdream'
+import Webdevsec from '../Components/Landingpage/Webdevsec'
+import Parallex from '../Components/Landingpage/parallex'
+import Industries from '../Components/Landingpage/Industries'
+import Newheader from '@/Components/Newheader/Newheader'
+import Newfooter from '@/Components/Newfooter/Newfooter'
+import Videosec from '@/Components/Landingpage/Videosec'
+import Workflownew from '@/Components/Landingpage/Workflownew'
+import Letsconnect from '@/Components/Letsconnect/Letsconnect'
 
 // export async function getStaticProps() {
 //   const res = await fetch('https://jsonplaceholder.typicode.com/posts')
@@ -30,15 +27,17 @@ import Letsconnect from "@/Components/Letsconnect/Letsconnect"
 
 export default function Home({ posts }) {
   React.useEffect(() => {
-    console.log(posts);
-
+    console.log(posts)
   }, [])
-  
+
   return (
     <>
       <Head>
         <title>Adaptable IT Solutions for Modern Business | Selteq</title>
-        <meta name="description" content="Selteq delivers secure, agile and scalable software & app solutions which help organizations to dramatically improve their business performance." />
+        <meta
+          name="description"
+          content="Selteq delivers secure, agile and scalable software & app solutions which help organizations to dramatically improve their business performance."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Favicon icon  */}
         <link rel="icon" href="/favicon.ico" />
@@ -59,22 +58,23 @@ export default function Home({ posts }) {
         {/* ruda font  */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@800&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Ruda:wght@800&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <main className={styles.main_height}>
-      {/* <Header /> */}
-      <Newheader />
-      <Video />
-      <Youdream />
-      <Webdevsec />
-      <Parallex />
-      <Videosec />
-      <Industries />
-      <Workflownew />
-      <Letsconnect />
-      {/* <Workflow /> */}
-      {/* <Footer /> */}
-      <Newfooter />
+        {/* <Header /> */}
+        <Newheader />
+        <Video />
+        <Youdream />
+        <Webdevsec />
+        <Parallex />
+        <Videosec />
+        <Industries />
+        <Workflownew />
+        <Letsconnect />
+        <Newfooter />
       </main>
     </>
   )

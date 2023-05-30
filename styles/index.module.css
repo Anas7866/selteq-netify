@@ -7,3 +7,19 @@
 {
     height: auto;
 }
+.crowBeak{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    position: absolute;
+    bottom: 0;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+.crowbeakHover:hover{
+
+}

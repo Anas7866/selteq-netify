@@ -1,13 +1,7 @@
 import React from "react"
 import FooterCSS from "../styles/Footer.module.css"
 import Image from "next/image"
-import facebook from "../public/Assets/Images/facebook.svg"
-import linkdln from "../public/Assets/Images/linkedin.svg"
-import instagram from "../public/Assets/Images/instagram.svg"
-import twiter from "../public/Assets/Images/twitter.svg"
-import phone from "../public/Assets/Images/phone.png"
-import mail from "../public/Assets/Images/mail.png"
-import location from "../public/Assets/Images/location.png"
+
 const Footer = () => {
   return (
     <div className={FooterCSS.main_div}>
@@ -84,7 +78,7 @@ const Footer = () => {
             <div className={FooterCSS.Mail__div}>
               <div className={FooterCSS.Mail__div2}>
                 <a href="#" className={FooterCSS.footerEmial}>
-                  <Image src={mail} className={FooterCSS.footer_images} />
+                  <Image src= "https://1864597015.rsc.cdn77.org/selteq/images/mail.png" className={FooterCSS.footer_images} />
                   contact@selteq.net
                 </a>
               </div>
@@ -92,13 +86,13 @@ const Footer = () => {
             <div className={FooterCSS.Mail__div}>
               <div className={FooterCSS.Mail__div2}>
                 <a href="#" className={FooterCSS.footerEmial}>
-                  <Image src={phone} className={FooterCSS.footer_images} />
+                  <Image src= "https://1864597015.rsc.cdn77.org/selteq/images/phone.png" className={FooterCSS.footer_images} />
                   UK +44 800 4488 994
                 </a>
               </div>
               <div className={FooterCSS.Mail__div2}>
                 <a href="#" className={FooterCSS.footerEmial}>
-                  <Image src={phone} className={FooterCSS.footer_images} />
+                  <Image src= "https://1864597015.rsc.cdn77.org/selteq/images/phone.png" className={FooterCSS.footer_images} />
                   USA +1 650 999 6951
                 </a>
               </div>
@@ -106,7 +100,7 @@ const Footer = () => {
             <div className={FooterCSS.Mail__div}>
               <div className={FooterCSS.Mail__div2}>
                 <h3 className={FooterCSS.Mail__div_headings}>
-                  <Image className={FooterCSS.footer_images} src={location} />
+                  <Image className={FooterCSS.footer_images} src="https://1864597015.rsc.cdn77.org/selteq/images/location.png"/>
                   USA
                 </h3>
                 <a href="#" className={FooterCSS.footerEmial}>
@@ -115,7 +109,7 @@ const Footer = () => {
               </div>
               <div className={FooterCSS.Mail__div2}>
                 <h3 className={FooterCSS.Mail__div_headings}>
-                  <Image className={FooterCSS.footer_images} src={location} />
+                  <Image className={FooterCSS.footer_images} src="https://1864597015.rsc.cdn77.org/selteq/images/location.png"/>
                   UK
                 </h3>
                 <a href="#" className={FooterCSS.footerEmial}>
@@ -127,22 +121,22 @@ const Footer = () => {
           <ul className={FooterCSS.ul_icons}>
             <li className={FooterCSS.icons}>
               <a href="https://www.linkedin.com/company/seltequk">
-                <Image src={linkdln} />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/linkedin.svg" />
               </a>
             </li>
             <li className={FooterCSS.icons}>
               <a href="https://twitter.com/selteq1">
-                <Image src={twiter} />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/twitter.svg" />
               </a>
             </li>
             <li className={FooterCSS.icons}>
               <a href="https://www.facebook.com/seltequk/">
-                <Image src={facebook} />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/facebook.svg" />
               </a>
             </li>
             <li className={FooterCSS.icons}>
               <a href="https://www.instagram.com/selteq.solution">
-                <Image src={instagram} />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/instagram.svg" />
               </a>
             </li>
           </ul>

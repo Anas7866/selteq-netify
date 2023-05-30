@@ -12,7 +12,7 @@ function Youdream() {
         });
       }, []);
   return (
-    <div className="col-md-12 text-center py-5 px-0">
+    <div className="col-md-12 text-center pb-5 px-0">
         <div className={styles.background_dream}>
 
          <div className="col-md-12 px-0 display_h">   

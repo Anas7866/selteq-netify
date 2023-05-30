@@ -8,7 +8,7 @@ function Solutions() {
             <div className='col-md-12 pt-3'>
                 <div className='row'>
                     <div className='col-md-1 col-2'>
-                        <img className='img-fluid' src="../mobimg/lampico.png" />
+                        <img className='img-fluid' src="https://1864597015.rsc.cdn77.org//selteq/images/lampico.png" />
                     </div>
                     <div className='col-md-11 col-10 pl-0'>
                         <p className='edu_ico mb-2'>Education</p>
@@ -21,7 +21,7 @@ function Solutions() {
             <div className='col-md-12 pt-2'>
                 <div className='row'>
                     <div className='col-md-1 col-2'>
-                        <img className='img-fluid' src="../mobimg/lamp1.png" />
+                        <img className='img-fluid' src="https://1864597015.rsc.cdn77.org//selteq/images/lamp1.png" />
                     </div>
                     <div className='col-md-11 col-10 pl-0'>
                         <p className='edu_ico mb-2'>Healthcare & Medical</p>
@@ -34,7 +34,7 @@ function Solutions() {
             <div className='col-md-12 pt-2'>
                 <div className='row'>
                     <div className='col-md-1 col-2'>
-                        <img className='img-fluid' src="../mobimg/lamp4.png" />
+                        <img className='img-fluid' src="https://1864597015.rsc.cdn77.org//selteq/images/lamp4.png" />
                     </div>
                     <div className='col-md-11 col-10 pl-0'>
                         <p className='edu_ico mb-2'>Banking & Finance</p>
@@ -47,7 +47,7 @@ function Solutions() {
             <div className='col-md-12 pt-2'>
                 <div className='row'>
                     <div className='col-md-1 col-2'>
-                        <img className='img-fluid' src="../mobimg/lamp3.png" />
+                        <img className='img-fluid' src="https://1864597015.rsc.cdn77.org//selteq/images/lamp3.png" />
                     </div>
                     <div className='col-md-11 col-10 pl-0'>
                         <p className='edu_ico mb-2'>E-commerce</p>
@@ -60,7 +60,7 @@ function Solutions() {
             <div className='col-md-12 pt-2 pb-4'>
                 <div className='row'>
                     <div className='col-md-1 col-2'>
-                        <img className='img-fluid' src="../mobimg/lamp2.png" />
+                        <img className='img-fluid' src="https://1864597015.rsc.cdn77.org//selteq/images/lamp2.png" />
                     </div>
                     <div className='col-md-11 col-10 pl-0'>
                         <p className='edu_ico mb-2'>ERP</p>

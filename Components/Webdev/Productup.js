@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../../styles/digital.module.css";
 import Collapseproduct from "./Collapseproduct";
-import sit from "../../public/images/sit.png"
+ 
 import Image from "next/image";
 function Productup() {
     // const [tabone, setTabone] = useState(true)
@@ -22,7 +22,7 @@ function Productup() {
             <div className="row" > 
             <div className="col-md-6 ">
                 <div className="col-md-12 pt-4 px-0 pb-5 pt-5">
-                    <h3 className={styles.software_head}> <b>Building webpages using state-of-the-art technologies</b></h3>
+                    <h3 className={styles.software_head}> <b>Building webpages uimport sit f ;rom "../../public/images/sit.png";sing state-of-the-art technologies</b></h3>
                     <div className="col-md-12 p-0 mt-5">
                         <Collapseproduct />
                     </div>
@@ -30,7 +30,7 @@ function Productup() {
                
             </div>
             <div className="col-md-6 text-center">
-                <Image src={sit} className="img-fluid"  />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/sit.png" className="img-fluid"  />
             </div>
             </div>
         </div>

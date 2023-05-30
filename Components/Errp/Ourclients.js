@@ -46,9 +46,9 @@ function Ourclients() {
    <div className="col-md-12 pt-5 pb-5">
     <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/test2.png" className="img-fluid img_widthh" />
    </div>
-   <div className="col-md-12 pt-5 pb-5">
+   {/* <div className="col-md-12 pt-5 pb-5">
     <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/test3.png" className="img-fluid img_widthh" />
-   </div>
+   </div> */}
     </Carousel>
     </div>
 

@@ -2,7 +2,7 @@ import styles from "../../styles/Newmdtech.module.css"
 
 function Banner() {
   return (
-    <div className="col-md-12 px-0 background_white"  >
+    <div className="col-md-12 px-0 background_white" style={{zIndex: 0}} >
         <div className="col-md-12 px-0">
             <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg" className="img-fluid img_height_banner"  />
         </div>

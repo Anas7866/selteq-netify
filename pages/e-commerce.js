@@ -35,7 +35,7 @@ export default function Ecommerece() {
         <Banner />
         <Bannersol />
         <Steps />
-        <Ourclients />
+        {/* <Ourclients /> */}
         <Newfooter/>
         </div>
         <div className='display_pc'>
@@ -44,7 +44,7 @@ export default function Ecommerece() {
         <Solutionsmain />
         <Patientmonitoring />
         <Pioneering />
-        <Ourclientsol />
+        {/* <Ourclientsol /> */}
         <Newfooter/>
         </div>
       </main>

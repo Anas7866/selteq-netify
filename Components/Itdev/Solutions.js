@@ -8,20 +8,21 @@ function Solutions() {
   const [one, setOne] = useState(1);
   const changeText =
     one === 1
-      ? "We help financial institutions, wealth management and banking companies transform their offerings with custom software development services for their customers’ emerging needs, enrich the security of end-products, speed up time to market, find valuable business insights and compete by means of technology."
+      ? "Tell us about your project and what you hope to achieve. We will work with you to define your business scope and project expectations and help you decide the best way to proceed.      "
       : one === 2
-      ? "Bringing together technologies and expertise that make a difference – at Selteq, we know the future is now. Innovation trumps standard processes when it comes to the healthcare technology arena."
-      : one === 3
-      ? "At Selteq, we are passionate about education and aim to unleash the power of digital learning – empowering educators to manage their classrooms from anywhere. We have the right skills, expertise, and experience to help educators better engage students using leading-edge technology."
-      : one === 4
-      ? "We build ecommerce platform dedicated to your needs or customize an existing solution to help scale your business. Ecommerce solutions powered by Selteq can be optimized for flexibility, scalability, long term adaptability, reliability and security while keeping pace with the evolving needs and possibilities for online businesses."
-      : "Are you running a business without an ERP system? Since data is the lifeblood of every modern company, ERP makes it easier to collect, organize, analyse, and distribute this information to every individual and system that needs it to best achieve their role and responsibility.";
+        ? "Meet your dedicated team of skilled developers & engineers ready to work on your project with transparent communication. Our team will collaborate throughout development to ensure your vision becomes a reality.      "
+        : one === 3
+          ? "Our team of experts will take the reins and deliver secure software with quality, reliability, & efficiency on time. We use the latest development methodologies to ensure the best possible results.      "
+          : one === 4
+            ? "We thoroughly test and check your project for any bugs, errors, or issues to ensure the highest quality and performance. Our team of experts will work tirelessly to ensure your project meets your expectations before delivery.      "
+            : "Provide regular feedback and expect on-time delivery of your project. We strive to exceed your expectations and deliver a quality product that meets your needs. Take advantage of our 24/7 expert assistance to get the most out of our service.      ";
 
   return (
     <>
       <div className="col-md-12 p-0 background_hei display_h">
         <div className="container display_h  text-center pt-5 ">
-          <p className={styles.solution_heading}>SOLUTIONS</p>
+          <p className={styles.solution_heading}>IT Outsourcing Services with an Elite Team of Developers</p>
+          <h6 className="pt-2"><b>How to Outsource with Us?</b></h6>
           <div className="col-md-12 px-5">
             <div className="row mt-5 background_height">
               <div
@@ -43,7 +44,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">FinTech</h6>
+                  <h6 className="fin ">Share Your Outsourcing Needs</h6>
                 </Link>
               </div>
 
@@ -67,7 +68,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">HEALTHCARE & MEDICAL</h6>
+                  <h6 className="fin ">Meet Your Project Team</h6>
                 </Link>
               </div>
               <div className="col-md zoomdown" onMouseEnter={() => setOne(3)}>
@@ -88,7 +89,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">EDUCATION</h6>
+                  <h6 className="fin ">Start Development</h6>
                 </Link>
               </div>
               <div className="col-md zoomdown" onMouseEnter={() => setOne(4)}>
@@ -111,7 +112,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">E-COMMERCE</h6>
+                  <h6 className="fin ">QA & Testing</h6>
                 </Link>
               </div>
               <div
@@ -133,7 +134,7 @@ function Solutions() {
                       </svg>
                     </div>
                   </div>
-                  <h6 className="fin ">ERP</h6>
+                  <h6 className="fin ">On-Time Delivery</h6>
                 </Link>
               </div>
             </div>

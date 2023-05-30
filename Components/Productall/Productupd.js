@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "../../styles/digital.module.css";
-import sit from "../../public/images/sit.png"
 import Image from "next/image";
 import Collapseproductd from "../Collapseall/Collapseproductd";
 function Productupd() {
@@ -33,7 +32,7 @@ into paying customers:</h6>
                
             </div>
             <div className="col-md-6 text-center">
-                <Image src={sit} alt='sit-up' className="img-fluid"  />
+                <Image src="https://1864597015.rsc.cdn77.org/selteq/images/sit.png" alt='sit-up' className="img-fluid"  />
             </div>
             </div>
         </div>

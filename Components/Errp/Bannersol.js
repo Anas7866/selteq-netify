@@ -1,13 +1,13 @@
 import styles from "../../styles/banking.module.css"
-import Image from "next/image"
-import pic from '../../public/images/doc.png'
+// import Image from "next/image"
+
 function Bannersol() {
   return (
     <div className="col-md-12 px-5 pb-5 pt-4 background_white">
         <div className="container ">
             <div className="row">
                 <div className="col-md-7 m-auto text-center">
-                    <Image src={pic} className="img-fluid img_width_bannersol "  />
+                    <img src="https://1864597015.rsc.cdn77.org/selteq/images/doc.png" className="img-fluid img_width_bannersol "  />
                 </div>
                 <div className="col-md-5 m-auto px-5">
                    <h2><b>BUSINESS OPERATIONS MADE EASY!</b></h2>

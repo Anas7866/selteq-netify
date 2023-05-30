@@ -1,26 +1,29 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from "../styles/index.module.css";
-import Header from "../Components/Header"
-import Footer from "../Components/Footer"
-import Banner from '../Components/Webdev/Banner';
-import Solutions from '../Components/Webdev/Solutions';
-import Learning from '../Components/Webdev/Learning';
-import Process from '../Components/Webdev/Process';
-import Digital from '../Components/Webdev/Digital';
-import Productup from '../Components/Webdev/Productup';
-import Ascand from '../Components/Webdev/Ascand';
-import Newheader from '@/Components/Newheader/Newheader';
-import Newfooter from '@/Components/Newfooter/Newfooter';
-import Productrunning from '@/Components/Webdev/Productrunning';
-import Businessdev from '@/Components/Webdev/Businessdev';
+import styles from '../styles/index.module.css'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
+import Banner from '../Components/Webdev/Banner'
+import Solutions from '../Components/Webdev/Solutions'
+import Learning from '../Components/Webdev/Learning'
+import Process from '../Components/Webdev/Process'
+import Digital from '../Components/Webdev/Digital'
+import Productup from '../Components/Webdev/Productup'
+import Ascand from '../Components/Webdev/Ascand'
+import Newheader from '@/Components/Newheader/Newheader'
+import Newfooter from '@/Components/Newfooter/Newfooter'
+import Productrunning from '@/Components/Webdev/Productrunning'
+import Businessdev from '@/Components/Webdev/Businessdev'
 const Software = () => {
   return (
     <>
       <Head>
-        <title>Professional Web Development Services |  Selteq</title>
-        <meta name="description" content="Selteq's web development services ensure that your website stands out with seamless functionality, intuitive design, and top-notch security." />
+        <title>Professional Web Development Services | Selteq</title>
+        <meta
+          name="description"
+          content="Selteq's web development services ensure that your website stands out with seamless functionality, intuitive design, and top-notch security."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* Favicon icon  */}
         <link rel="icon" href="/favicon.ico" />

@@ -33,7 +33,7 @@ function Banner() {
      autoPlay={true}
      infinite={true}
      >
-        <div className={styles.background_image_crousal}>
+        <div className={styles.web_background_image_crousal}>
             <div className="col-md-12 text_align_crousal text-center">
             <h2 className="mb-0 font_crousal">EXPLICIT FUNCTIONALITIES</h2>
             <h6 className="display_pc font_wi_banner">FUNCTIONALITIES</h6>
@@ -45,7 +45,7 @@ function Banner() {
             </div>
             </div>
         </div>
-        <div className={styles.background_image_crousal2}>
+        <div className={styles.web_background_image_crousal2}>
         <div className="col-md-12 text_align_crousal text-center">
             <h2 className="mb-0 font_crousal">RELIABILITY & AGILITY</h2>
             <h6 className="display_pc font_wi_banner">AND AGILITY</h6>
@@ -57,7 +57,7 @@ function Banner() {
             </div>
             </div>
         </div>
-        <div className={styles.background_image_crousal3}>
+        <div className={styles.web_background_image_crousal3}>
         <div className="col-md-12 text_align_crousal text-center">
             <h2 className="mb-0 font_crousal">RESULT-DRIVEN APPROACH</h2>
             <h6 className="display_pc font_wi_banner">APPROACH</h6>

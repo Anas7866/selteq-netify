@@ -34,7 +34,7 @@ export default function EdTechm() {
         <Banner />
         <Bannersol />
         <Steps />
-        <Ourclients />
+        {/* <Ourclients /> */}
         <Newfooter/>
         </div>
         <div className='display_pc'>
@@ -43,7 +43,7 @@ export default function EdTechm() {
         <Solutionsmain />
         <Patientmonitoring />
         <Pioneering />
-        <Ourclientsol />
+        {/* <Ourclientsol /> */}
         <Newfooter/>
         </div>
       </main>

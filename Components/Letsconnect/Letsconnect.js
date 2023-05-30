@@ -12,7 +12,7 @@ function Letsconnect() {
         <div className={styles.connect_background}>
         <div className="col-md-12 text-center display_h pt-5 pb-4 ">
           <div className="col-md-12">
-            <h6 className={styles.p_banner}>We collaborate with innovative brands to create cutting-edge digital experiences.</h6>
+            <h6 className={styles.p_banner}>Get in touch – let us create the digital brain of your organisation.</h6>
             <h4 className="mt-4 background_button_dark1"><b>Let’s Connect</b></h4>
             <button onClick={()=>contactus()} className="btn btn-dark px-5 background_button_dark mb-4">Contact Us</button>
             </div>

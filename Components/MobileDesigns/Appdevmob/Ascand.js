@@ -21,7 +21,7 @@ function Ascand() {
         <div className='row'>
             <div className='col-md-6 col-4'></div>
             <div className='col-md-6 col-8'>
-                <img className='img-fluid' src='../mobimg/Frame1.png' />
+                <img className='img-fluid' src='https://1864597015.rsc.cdn77.org//selteq/images/Frame1.png' />
             </div>
         </div>
      </div>

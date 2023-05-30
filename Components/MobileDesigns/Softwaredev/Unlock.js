@@ -30,7 +30,7 @@ function Unlock() {
        <p className='mb-0 sub_sub_text_size_sol1'>Our tech stack package combines modern tools, frameworks and technologies.</p>
         </div>
         <div className='col-md-7 col-6 px-0 pt-4'>
-          <img className='img-fluid' src='../mobimg/Frame.png' />
+          <img className='img-fluid' src='https://1864597015.rsc.cdn77.org//selteq/images/Frame1.png' />
         </div>
         </div>
         </div>

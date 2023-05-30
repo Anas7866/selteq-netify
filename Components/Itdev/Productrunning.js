@@ -61,7 +61,7 @@ function Productrunning() {
                 </div>
                 <div className='col-md-6 display_h'>
                     <div className='col-md-12 text-center pl-5'>
-                        <img className='img-fluid with_control' src='../images/girl1.png' />
+                        <img className='img-fluid with_control' src='https://1864597015.rsc.cdn77.org/selteqreact/images/girl1.png' />
                     </div>
                 </div>
             </div>

@@ -9,6 +9,7 @@ function Businessdev() {
   const contact = () => {
       router.push("/contact-us")
   }
+  
   return (
     <div className="col-md-12 p-0">
       <div className="col-md-12 px-0 background_businesss display_h ">
@@ -19,21 +20,21 @@ function Businessdev() {
               APP SOLUTIONS FOR A CONNECTED WORLD
             </h2>
           </div>
-          <div className="row">
-            <div className="col-md-6 px-5">
-              <div className="col-md-12">
-                <p className="color_white mb-1">Cloud Integration</p>
-                <p className="color_w_e">
+          <div className="row mb-5 pb-5">
+            <div className="col-md-6 px-5 mb-5 pb-5">
+              <div className="col-md-12 pt-4">
+                <p className="color_white mb-1 mt-0 pt-0">Cloud Integration</p>
+                <p className="custom_paraa_font text-light">
                   Integrating an app with cloud-based services, such as storage,
                   databases, and serverless functions, enables scalability,
                   flexibility, and cost-effectiveness.
                 </p>
               </div>
               <div className="col-md-12">
-                <p className="color_white1 mb-1">
+                <p className="color_white1 mb-1 pt-3">
                   Data Analysis & Visualization
                 </p>
-                <p className="color_w_e">
+                <p className="custom_paraa_font text-light">
                   Collecting, analysing and visualising data to provide insights
                   and make data-driven decisions. This includes using tools and
                   technologies such as SQL, Excel, and Tableau to analyse data
@@ -42,18 +43,18 @@ function Businessdev() {
               </div>
             </div>
             <div className="col-md-6 px-5">
-              <div className="col-md-12">
-                <p className="color_white mb-1">Push Notifications</p>
-                <p className="color_w_e">
+              <div className="col-md-12 pt-4">
+                <p className="color_white mb-1 pt-0">Push Notifications</p>
+                <p className="custom_paraa_font text-light">
                   Sending push notifications to users through an app to inform
                   them of new content, updates, and other important information.
                 </p>
               </div>
               <div className="col-md-12">
-                <p className="color_white1 mb-1">
+                <p className="color_white1 mb-1 pt-3">
                   App Analytics & Optimization
                 </p>
-                <p className="color_w_e">
+                <p className="custom_paraa_font text-light">
                   Tracking and analysing the performance of an app, including
                   user engagement, retention, and revenue, and using this data
                   to optimise the app and improve its performance. Creating the

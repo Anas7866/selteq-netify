@@ -1,7 +1,6 @@
 import { React, useState } from "react"
 import HeaderCSS from "../styles/Header.module.css"
 import Image from "next/image"
-import Logo from "../public/Assets/Images/logo.png"
 import { FaBars } from "react-icons/fa"
 import Head from "next/head"
 import Link from "next/link"
@@ -16,7 +15,7 @@ const Header = () => {
         <div className={HeaderCSS.logo__container}>
           <Link href="/">
             <Image
-              src={Logo}
+              src="https://1864597015.rsc.cdn77.org/selteqreact/images/logo.png"
               width="102"
               height="44"
               alt="Selteq IT Solutions"
@@ -136,7 +135,7 @@ const Header = () => {
           <div className={HeaderCSS.logo__container1}>
             <Link href="/">
               <Image
-                src={Logo}
+                src="https://1864597015.rsc.cdn77.org/selteqreact/images/logo.png"
                 width="102"
                 height="44"
                 alt="Selteq IT Solutions"
