@@ -28,13 +28,13 @@ function Ourclientsol() {
       <p className='text_white_bold_our'> Our Clients Always<br /> Speak Highly of Our<br /> Services</p>
 
       <Carousel
-        showDots={true}
+        // showDots={true}
         infinite={true}
         autoPlaySpeed={1000}
         keyBoardControl={true}
         customTransition="all 1s"
         transitionDuration={2000}
-        dotListClass="custom-dot-list-style4"
+        // dotListClass="custom-dot-list-style4"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         responsive={responsive}>
         {/* <div className='col-md-12 pt-4'>

@@ -23,3 +23,23 @@
 .crowbeakHover:hover{
 
 }
+.partnerDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vw;
+
+
+}
+.partnerDiv p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* or 119% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #8D8D8D;
+}

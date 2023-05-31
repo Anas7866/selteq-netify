@@ -3,7 +3,7 @@ import Styles from "./SubHeader.module.css";
 import Image from "next/image";
 import { SubHeaderItem } from "./Reusable/SubHeaderItem";
 import { SubHeaderMenuItem } from "./SubHeaderMenuItem";
-import { expert, plexaar, chelsford, deltrum, dummy } from "./assets";
+import {expert, plexaar, chelsford, deltrum, dummy, microsoft, oracle, expert2, expertApp} from "./assets";
 
 export const SubHeaderSolutions = ({ handleClose }) => {
   const [showSoftwares, setShowSoftwares] = useState(false);
@@ -87,7 +87,7 @@ export const SubHeaderSolutions = ({ handleClose }) => {
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="software"
-                title="IReach"
+                title="iReach"
                 desc="HR"
                 style="yellow"
                 link="/under-development"
@@ -119,8 +119,8 @@ export const SubHeaderSolutions = ({ handleClose }) => {
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="mobile"
-                title="POS"
-                desc="Expert Pay"
+                title="Expert Pay"
+                desc="POS"
                 style="red"
                 link="/under-development"
               />
@@ -128,8 +128,8 @@ export const SubHeaderSolutions = ({ handleClose }) => {
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="web"
-                title="LMS"
-                desc="Eblurb"
+                title="Eblurb"
+                desc="LMS"
                 style="green"
                 link="/under-development"
               />
@@ -162,58 +162,7 @@ export const SubHeaderSolutions = ({ handleClose }) => {
               />
             </div>
           </div>
-          <div
-            className={Styles.subHeadingSubChild}
-            style={
-              showSoftwares ? { marginLeft: "1.5vw" } : { marginLeft: "2vw" }
-            }
-          >
-            <div onClick={() => handleClose()}>
-              <SubHeaderItem
-                icon="mobile"
-                title="FinTech"
-                desc="Core banking & non-banking solutions with digital agility"
-                style="red"
-                link="/banking-and-finance"
-              />
-            </div>
-            <div onClick={() => handleClose()}>
-              <SubHeaderItem
-                icon="web"
-                title="MedTech & mHealth"
-                desc="Patient & billing management, EMR & EHR solutions"
-                style="green"
-                link="/healthcare-and-medical"
-              />
-            </div>
-            <div onClick={() => handleClose()}>
-              <SubHeaderItem
-                icon="software"
-                title="EdTech"
-                desc="Learning management system, student management portal"
-                style="yellow"
-                link="/education"
-              />
-            </div>
-            <div onClick={() => handleClose()}>
-              <SubHeaderItem
-                icon="marketing"
-                title="E-Commerce"
-                desc="Ecom app development, Supply & resupply system"
-                style="blue"
-                link="/e-commerce"
-              />
-            </div>
-            <div onClick={() => handleClose()}>
-              <SubHeaderItem
-                icon="meta"
-                title="ERP"
-                desc="Automating businesses with bespoke ERP system"
-                style="meta"
-                link={"/erp"}
-              />
-            </div>
-          </div>
+
         </div>
         <div
           className={Styles.subHeaderChildContainer2}
@@ -223,36 +172,38 @@ export const SubHeaderSolutions = ({ handleClose }) => {
         </div>
       </div>
       <div className={Styles.alignSubHeaderPortfolio}>
+        <p>Our partners</p>
         <div className={Styles.subHeaderPortfolio}>
           <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
+              src={microsoft}
+              alt="Microsoft"
+              style={{ width: "6.5vw", height: "1.5vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+              src={oracle}
+              alt="Oracle"
+              style={{ width: "7.5vw", height: "1.5vw" }}
+              className={Styles.imgHover}
+          />
+
+          <Image
+              src={expert2}
+              alt="Expert"
+              style={{ width: "6vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={deltrum}
-            alt="Deltrum"
-            style={{ width: "4.5vw", height: "2vw" }}
+              src={plexaar}
+              alt="Plexaar"
+              style={{ width: "5.5vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={chelsford}
-            alt="Chelsford"
-            style={{ width: "6vw", height: "2vw" }}
-          />
-          <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+              src={expertApp}
+              alt="Expert"
+              style={{ width: "7vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
         </div>
       </div>

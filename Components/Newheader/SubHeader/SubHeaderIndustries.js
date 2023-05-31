@@ -3,7 +3,17 @@ import Styles from "./SubHeader.module.css";
 import Image from "next/image";
 import { SubHeaderItem } from "./Reusable/SubHeaderItem";
 import { SubHeaderMenuItem } from "./SubHeaderMenuItem";
-import { expert, plexaar, chelsford, deltrum, dummy } from "./assets";
+import {
+  expert,
+  plexaar,
+  chelsford,
+  deltrum,
+  dummy,
+  microsoft,
+  oracle,
+  expert2,
+  expertApp,
+} from "./assets";
 
 export const SubHeaderIndustries = ({ handleClose }) => {
   const [showSoftwares, setShowSoftwares] = useState(false);
@@ -19,7 +29,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="mobile"
                 title="Retail"
-                desc="CRM"
+                desc="Customer-Centric CRM Retail Management Software"
                 style="red"
                 link="/under-development"
               />{" "}
@@ -27,36 +37,36 @@ export const SubHeaderIndustries = ({ handleClose }) => {
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="web"
-                title="Healthcare "
-                desc="ERP"
+                title="MedTech "
+                desc="Empowering Patient Care Through MedTech Advancements"
                 style="green"
-                link="/healthcare-and-medical"
+                link="/industries/health-care-and-medical-software"
               />
             </div>
 
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="software"
-                title="Education"
-                desc="Booking System"
+                title="EdTech"
+                desc="Fostering Collaborative Learning with EdTech"
                 style="yellow"
-                link="/education"
+                link="/industries/education-technology"
               />{" "}
             </div>
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="marketing"
-                title="Finance and Banking "
-                desc="Accounting and Finance"
+                title="FinTech"
+                desc="Stay Ahead in The Digital Economy with Fintech Solutions"
                 style="blue"
-                link="/banking-and-finance"
+                link="/industries/finance-banking"
               />{" "}
             </div>
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="data"
                 title="Energy and Utilities"
-                desc="Communications"
+                desc="Demand Response, Billing & Customer Care Solutions"
                 style="purple"
                 link="/under-development"
               />{" "}
@@ -71,7 +81,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="mobile"
                 title="Government  "
-                desc="Forms"
+                desc="GovTech, eGov & Public Sector Solutions"
                 style="red"
                 link="/under-development"
               />{" "}
@@ -80,7 +90,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="web"
                 title="Logistic and Supply chain"
-                desc="Inventory"
+                desc="Warehouse, Transportation, Inventory Management Systems"
                 style="green"
                 link="/under-development"
               />{" "}
@@ -90,7 +100,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="software"
                 title="Manufacturing"
-                desc="HR"
+                desc="Monitor & Control Manufacturing Systems in Real-Time"
                 style="yellow"
                 link="/under-development"
               />{" "}
@@ -99,7 +109,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="marketing"
                 title="Telecom "
-                desc="Onboarding"
+                desc="Operational/Business Support, NMS & IMS"
                 style="blue"
                 link="/under-development"
               />{" "}
@@ -108,7 +118,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="data"
                 title="AgriTech"
-                desc="Project Management "
+                desc="Farm Management & Operations Solutions for Efficient Agribusiness"
                 style="purple"
                 link="/under-development"
               />{" "}
@@ -122,7 +132,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="mobile"
                 title="InsurTech"
-                desc="Insurance software tech"
+                desc="Automate Policy Administration with InsurTech Solutions"
                 style="red"
                 link="/under-development"
               />{" "}
@@ -131,7 +141,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="web"
                 title="Media and Entertainment"
-                desc="custom media entertainment software"
+                desc="Custom Media & Entertainment Software Solutions"
                 style="green"
                 link="/under-development"
               />{" "}
@@ -141,7 +151,7 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="software"
                 title="Hospitality"
-                desc="Scheduling"
+                desc="Housekeeping, Reservation management, POS Solutions"
                 style="yellow"
                 link="/under-development"
               />{" "}
@@ -150,65 +160,39 @@ export const SubHeaderIndustries = ({ handleClose }) => {
               <SubHeaderItem
                 icon="marketing"
                 title="Aviation"
-                desc="Insights/Analytics"
+                desc="Airport Operation and Service Management Systems"
                 style="blue"
                 link="/under-development"
               />{" "}
             </div>
+
             <div onClick={() => handleClose()}>
               <SubHeaderItem
-                icon="data"
-                title="ERP"
-                desc="Automating businesses with bespoke ERP system"
-                style="purple"
-                link="/iot_software_dev/erp"
-              />{" "}
+                  icon="data"
+                  title="ERP"
+                  desc="Automating businesses with bespoke ERP system"
+                  style="purple"
+                  link={"/industries/enterprise-resource-planning"}
+              />
             </div>
           </div>
           <div
-            className={Styles.subHeadingSubChild}
-            style={
-              showSoftwares ? { marginLeft: "1.5vw" } : { marginLeft: "2vw" }
-            }
+              className={Styles.subHeadingSubChild}
+              style={
+                showSoftwares ? { marginLeft: "1.5vw" } : { marginLeft: "2vw" }
+              }
           >
-            {/*  onClick={()=> handleClose()}<div><SubHeaderItem
-              icon="mobile"
-              title="FinTech"
-              desc="Core banking & non-banking solutions with digital agility"
-              style="red"
-              link="/banking-and-finance"
-            /> </div>
-            <div onClick={()=> handleClose()}><SubHeaderItem
-              icon="web"
-              title="MedTech & mHealth"
-              desc="Patient & billing management, EMR & EHR solutions"
-              style="green"
-              link="/healthcare-and-medical"
-            /> </div>
 
-            <div><S onClick={()=> handleClose()}ubHeaderItem
-              icon="software"
-              title="EdTech"
-              desc="Learning management system, student management portal"
-              style="yellow"
-              link="/education"
-            /> */}
-            {/*<div onClick={() => handleClose()}>*/}
-            {/*  <SubHeaderItem*/}
-            {/*    icon="marketing"*/}
-            {/*    title="E-Commerce"*/}
-            {/*    desc="Ecom app development, Supply & resupply system"*/}
-            {/*    style="blue"*/}
-            {/*    link="/e-commerce"*/}
-            {/*  />{" "}*/}
-            {/*</div>*/}
-            {/* <div onClick={()=> handleClose()}><SubHeaderItem
-              icon="meta"
-              title="ERP"
-              desc="Automating businesses with bespoke ERP system"
-              style="meta"
-              link={"/erp"}
-            /> */}
+            <div onClick={() => handleClose()}>
+              <SubHeaderItem
+                  icon="marketing"
+                  title="E-Commerce"
+                  desc="Ecom app development, Supply & resupply system"
+                  style="blue"
+                  link="/industries/e-commerce-solutions"
+              />
+            </div>
+
           </div>
         </div>
         <div
@@ -219,36 +203,38 @@ export const SubHeaderIndustries = ({ handleClose }) => {
         </div>
       </div>
       <div className={Styles.alignSubHeaderPortfolio}>
+        <p>Our partners</p>
         <div className={Styles.subHeaderPortfolio}>
           <Image
-            src={expert}
+            src={microsoft}
+            alt="Microsoft"
+            style={{ width: "6.5vw", height: "1.5vw" }}
+            className={Styles.imgHover}
+          />
+          <Image
+            src={oracle}
+            alt="Oracle"
+            style={{ width: "7.5vw", height: "1.5vw" }}
+            className={Styles.imgHover}
+          />
+
+          <Image
+            src={expert2}
             alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={deltrum}
-            alt="Deltrum"
-            style={{ width: "4.5vw", height: "2vw" }}
-          />
-          <Image
-            src={chelsford}
-            alt="Chelsford"
             style={{ width: "6vw", height: "2vw" }}
-          />
-          <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
+            className={Styles.imgHover}
           />
           <Image
             src={plexaar}
             alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+            style={{ width: "5.5vw", height: "2vw" }}
+            className={Styles.imgHover}
+          />
+          <Image
+            src={expertApp}
+            alt="Expert"
+            style={{ width: "7vw", height: "2vw" }}
+            className={Styles.imgHover}
           />
         </div>
       </div>

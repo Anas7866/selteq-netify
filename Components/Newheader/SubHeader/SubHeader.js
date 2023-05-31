@@ -3,7 +3,14 @@ import Styles from "./SubHeader.module.css";
 import Image from "next/image";
 import { SubHeaderItem } from "./Reusable/SubHeaderItem";
 import { SubHeaderMenuItem } from "./SubHeaderMenuItem";
-import { expert, plexaar, chelsford, deltrum, dummy } from "./assets";
+import {
+  expert2,
+  plexaar,
+  expertApp,
+  deltrum,
+  microsoft,
+  oracle,
+} from "./assets";
 
 export const SubHeader = ({ handleClose }) => {
   const [showSoftwares, setShowSoftwares] = useState(false);
@@ -28,7 +35,7 @@ export const SubHeader = ({ handleClose }) => {
                   title="Consulting Services "
                   desc="Transformation Consultancy & Start-up Consultancy"
                   style="green"
-                  link={"/consulting"}
+                  link={"/services/consulting"}
                 />
               </div>
               <div
@@ -46,7 +53,7 @@ export const SubHeader = ({ handleClose }) => {
                   title="Software Development"
                   desc="Building Highly Intuitive, Next Generation Software Solutions"
                   style="yellow"
-                  link="/software-development"
+                  link="/services/software-development"
                 />
               </div>
               <div onClick={() => handleClose()}>
@@ -55,7 +62,7 @@ export const SubHeader = ({ handleClose }) => {
                   title="Mobile Apps"
                   desc="Robust, Scalable, Secure and 100% Customised"
                   style="red"
-                  link="/app-development"
+                  link="/services/app-development"
                 />
               </div>
               <div onClick={() => handleClose()}>
@@ -64,7 +71,7 @@ export const SubHeader = ({ handleClose }) => {
                   title="Web Development"
                   desc="Solid Web Solutions within any Industry"
                   style="green"
-                  link="/web-development"
+                  link="/services/web-development"
                 />
               </div>
               {/*<SubHeaderItem*/}
@@ -103,7 +110,7 @@ export const SubHeader = ({ handleClose }) => {
                 title="Data Analytics "
                 desc="Powerful Analytics Insights through AI & Data Services"
                 style="red"
-                link={"/iot_software_dev/Data_analysis"}
+                link={"/software-development/data-analysis"}
               />
             </div>
             <div onClick={() => handleClose()}>
@@ -112,7 +119,7 @@ export const SubHeader = ({ handleClose }) => {
                 title="Marketing"
                 desc="Keeping you at Forefront of the Ever-changing Digitised World"
                 style="blue"
-                link={"/digital-marketing"}
+                link={"/services/digital-marketing"}
               />
             </div>
             <div onClick={() => handleClose()}>
@@ -121,7 +128,7 @@ export const SubHeader = ({ handleClose }) => {
                 title="Devops"
                 desc="Transform your Organisation with Security Best Practices "
                 style="meta"
-                link={"/iot_software_dev/Devops"}
+                link={"/software-development/devops-software"}
               />
             </div>
             <div onClick={() => handleClose()}>
@@ -130,7 +137,7 @@ export const SubHeader = ({ handleClose }) => {
                 title="IT Outsourcing"
                 desc="Your Trusted Partner for Outsourcing Excellence "
                 style="purple"
-                link={"/it-outsourcing"}
+                link={"/services/IT-outsourcing"}
               />
             </div>
 
@@ -155,7 +162,7 @@ export const SubHeader = ({ handleClose }) => {
                 title="Internet of Things  "
                 desc="Innovative Solutions to Automate Work & Reduce Labou"
                 style="purple"
-                link={"/iot_software_dev/Iot"}
+                link={"/software-development/IOT-software"}
               />
             </div>
             <div onClick={() => handleClose()}>
@@ -164,16 +171,16 @@ export const SubHeader = ({ handleClose }) => {
                 title="BPO"
                 desc="Fastest way to Outsource Business Processes Globally"
                 style="red"
-                link={"/BPO"}
+                link={"/services/business-process-outsourcing"}
               />
             </div>
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="meta"
-                title="Metaversa"
+                title="Metaverse"
                 desc="Enabling Next-Generation Interactions"
                 style="meta"
-                link={"/metaverse"}
+                link={"/services/metaverse"}
               />
             </div>
           </div>
@@ -186,36 +193,38 @@ export const SubHeader = ({ handleClose }) => {
         </div>
       </div>
       <div className={Styles.alignSubHeaderPortfolio}>
+        <p>Our partners</p>
         <div className={Styles.subHeaderPortfolio}>
           <Image
-            src={expert}
+            src={microsoft}
+            alt="Microsoft"
+            style={{ width: "6.5vw", height: "1.5vw" }}
+            className={Styles.imgHover}
+          />
+          <Image
+            src={oracle}
+            alt="Oracle"
+            style={{ width: "7.5vw", height: "1.5vw" }}
+            className={Styles.imgHover}
+          />
+
+          <Image
+            src={expert2}
             alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={deltrum}
-            alt="Deltrum"
-            style={{ width: "4.5vw", height: "2vw" }}
-          />
-          <Image
-            src={chelsford}
-            alt="Chelsford"
             style={{ width: "6vw", height: "2vw" }}
-          />
-          <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
+            className={Styles.imgHover}
           />
           <Image
             src={plexaar}
             alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+            style={{ width: "5.5vw", height: "2vw" }}
+            className={Styles.imgHover}
+          />
+          <Image
+            src={expertApp}
+            alt="Expert"
+            style={{ width: "7vw", height: "2vw" }}
+            className={Styles.imgHover}
           />
         </div>
       </div>

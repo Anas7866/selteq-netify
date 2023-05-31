@@ -86,7 +86,7 @@ a {
 
 .background_pic_iot {
   background-image: url(https://1864597015.rsc.cdn77.org/selteq/images/banner1.jpg);
-  height: 90vh;
+  height: 90vh !important;
   background-repeat: no-repeat;
   background-position: 100% 100%;
   background-size: cover;
@@ -103,7 +103,7 @@ a {
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
-  line-height: 59px;
+  line-height: 50px;
   /* or 245% */
 
   letter-spacing: 0.19em;
@@ -1601,6 +1601,7 @@ video {
 .bacground_c_b {
   background-color: black;
   color: white;
+  margin-top: auto !important;
 }
 
 .red_foter {
@@ -1910,9 +1911,10 @@ video {
 
 .background_md_tech_banner {
   background-color: rgba(255, 255, 255, 0.91);
-  margin-top: -135px;
   padding-top: 32px;
   padding-bottom: 32px;
+  position: absolute;
+  bottom: -10px;
 }
 
 .NRG_BUTTON {
@@ -2912,4 +2914,11 @@ video {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+/* // */
+.margin_left_contents{
+  margin-left: -40px !important;
 }

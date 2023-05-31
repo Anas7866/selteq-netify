@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "path":"crm_solutions",
+    "path":"CRM-solutions",
     "main_heading": "ACCELERATE BUSINESS WITH CUSTOM",
     "sub_main_heading": "CRM SOLUTIONS",
     "main_heading_description": "Our CRM solutions are designed to streamline improve customer engagement and increase sales. The systems are built to optimise the management of business operations and automate data-driven decision-making.",
@@ -80,7 +80,7 @@
   },
   {
     "id": 2,
-    "path":"high_performance_web_app",
+    "path":"web-application",
     "main_heading": "Developing High-Performing Web Apps",
     "sub_main_heading": "Web Application",
     "main_heading_description": "With our expertise in full-stack development, we provide web application solutions with robust back-end systems and dynamic front-end interfaces using modern web technologies like Node.js, React, Angular and more.",
@@ -147,7 +147,7 @@
   },
   {
     "id": 3,
-    "path":"Communication",
+    "path":"communication-software",
     "main_heading": "Communication Reimagined, with Our ",
     "sub_main_heading": "Communications Software",
     "main_heading_description": "Our communication software development services are designed to help businesses stay ahead of the game by providing the best communication solutions that enable efficient and effective communication across a range of devices and platforms.",
@@ -277,7 +277,7 @@
   },
   {
     "id": 5,
-    "path":"Ai_learning",
+    "path":"AI-and-machine-learning",
     "main_heading": "BUILDING TOMORROW'S INTELLIGENCE TODAY",
     "sub_main_heading": "AI & Machine Learning",
     "main_heading_description": "Harnessing technologies like AI & ML, we engineer intelligent software solutions and applications. Leveraging frameworks like TensorFlow and PyTorch, we deliver high-performance AI & ML software tailored to your specific business needs.",
@@ -344,7 +344,7 @@
   },
   {
     "id": 6,
-    "path":"erp",
+    "path":"ERP-system",
     "main_heading": "IMPROVE PRODUCTIVITY WITH BESPOKE",
     "sub_main_heading": "ERP SYSTEM",
     "main_heading_description": "With a strong focus on usability, our team uses UX/UI design, HTML/CSS, & JavaScript frameworks such as React or Vue.js to create intuitive & responsive product. We use Agile methodology & automation testing to deliver high-quality ERP solutions. ",
@@ -433,7 +433,7 @@
   },
   {
     "id": 7,
-    "path":"Agile_software",
+    "path":"agile-software",
     "main_heading": "Scalable Software. Agile Delivery",
     "sub_main_heading": "Agile Software",
     "main_heading_description": "An iterative, collaborative approach to software development, delivering working software in short sprints using Scrum or Kanban methodologies, allowing for flexibility and continuous improvement through feedback loops and incremental changes. ",
@@ -502,7 +502,7 @@
   },
   {
     "id": 8,
-    "path":"Devops",
+    "path":"devops-software",
     "main_heading": "Efficient DevOps for Modern Apps",
     "sub_main_heading": "DevOps Software",
     "main_heading_description": "Our DevOps software leverages agile methodologies, CI/CD pipelines, and infrastructure automation tools such as Kubernetes and Docker to provide a seamless and efficient software development lifecycle.",
@@ -569,7 +569,7 @@
   },
   {
     "id": 9,
-    "path":"Hr_software",
+    "path":"HR-software",
     "main_heading": "DEVELOPING THE NEXT-GEN HR PLATFORMS",
     "sub_main_heading": "HR SOFTWARE",
     "main_heading_description": "Experience the power of HR software solutions that leverage cloud-based architecture, real-time data analysis, and scalable infrastructure for streamlined human resource management.",
@@ -636,7 +636,7 @@
   },
   {
     "id": 10,
-    "path":"Data_analysis",
+    "path":"data-analysis",
     "main_heading": "UNLOCK INSIGHTS, DRIVE DECISIONS",
     "sub_main_heading": "Data Analysis",
     "main_heading_description": "Leveraging statistical methods, machine learning algorithms, and data visualization techniques, we offer data analysis services to extract valuable insights from complex data sets, to drive data-driven decision-making.",
@@ -904,7 +904,7 @@
   },
   {
     "id": 14,
-    "path":"Finance_software",
+    "path":"finance-software",
     "main_heading": "Building Smarter Finance Solutions",
     "sub_main_heading": "Finance software",
     "main_heading_description": "Our finance software development services utilize the latest technologies to deliver robust and scalable solutions, including blockchain-based payment systems, AI-powered fraud detection, and wealth management software. ",
@@ -971,7 +971,7 @@
   },  
   {
     "id": 15,
-    "path":"Iot",
+    "path":"IOT-software",
     "main_heading": "Your One-Stop Shop for",
     "sub_main_heading": "IoT Software Development Services",
     "main_heading_description": "The Internet of Things (IoT) is revolutionising the way businesses operate. With the integration of IoT technology, businesses can now connect and automate various devices and systems to improve efficiency, reduce costs, and gain valuable insights.",

@@ -17,7 +17,7 @@ export const SubHeaderMenuItem = ({ show, handleClose }) => {
       active: false,
     },
     {
-      name: "Ai & Machine Learning",
+      name: "AI & Machine Learning",
       link: "/iot_software_dev/Ai_learning",
       id: 4,
       active: false,

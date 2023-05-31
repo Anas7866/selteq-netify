@@ -35,7 +35,7 @@ function Ourclients() {
     autoPlaySpeed={5000}
     autoPlay={true}
     infinite={true}
-    showDots={true}
+    // showDots={true}
  >
    {/* <div className="col-md-12 pt-5 pb-5">
     <img src="https://1864597015.rsc.cdn77.org/selteqreact/images/TEST.png" className="img-fluid img_widthh" />

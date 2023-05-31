@@ -100,7 +100,52 @@
     background-size: cover;
 }
 
+/* Solution pages */
 
+.solution_fintech_banner_background {
+    margin-left: -1px;
+    background-image: url("https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+}
+
+.solution_medtech_banner_background {
+    margin-left: -1px;
+    background-image: url("https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+}
+
+.solution_edtech_banner_background {
+
+margin-left: -1px;    background-image: url("https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+}
+
+.solution_ecom_banner_background {
+  
+  margin-left: -1px;  background-image: url("https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+}
+
+.solution_erp_banner_background {
+   
+   margin-left: -1px; background-image: url("https://1864597015.rsc.cdn77.org/selteqreact/images/banner-37.jpg");
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-position: 100% auto;
+    background-size: cover;
+}
 
 .font_security {
     font-size: 26px;

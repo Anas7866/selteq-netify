@@ -1,6 +1,5 @@
 import React from 'react'
 import aboutcss from '../../styles/about.module.css'
-import Image from 'next/image'
  import styles1 from '../../styles/Casestudy.module.css'
 
 import { useState } from 'react'
@@ -29,12 +28,6 @@ const Aboutmain = () => {
               <h6 className="pt-4 text_j">
               Selteq, a next-generation software development and consultancy firm, operates in 4 countries with a global team. We're specialize in large-scale IT projects, pushing the boundaries of innovative software technologies to drive growth, productivity, and profitability. With a focus on digital transformation, Selteq brings together data and business insights, leveraging collective human wisdom to advance artificial intelligence. As we move towards the greatest change in history, Selteq partners with clients to reinvent creation, offering digital solutions, consultancy, and outsourcing services that catapult businesses into the future.
               </h6>
-              {/* <h6 className="text_j">
-                We set businesses apart by fulfilling all their IT and digital
-                needs. Being a digital transformation stalwart, Selteqs
-                proactive approach and a keen eye on futuristic developments
-                allow us to untangle complex issues.
-              </h6> */}
               <h6 className="text_j">
                 Our fascinating and pixel-perfect design combined with a
                 functional website, App, or internal software using the
@@ -52,14 +45,6 @@ const Aboutmain = () => {
                 help driving loads of credible traffic and convert that traffic
                 into business, making them highly lucrative.
               </h6>
-              {/* <h6 className="text_j">
-                We thoroughly assess client operations, people, processes, and
-                audiences to carefully devise bespoke IT solutions to help
-                businesses achieve continuous organizational improvements. Our
-                futuristic business enhancement tools coupled with quality
-                standardization practices will help businesses enjoy an
-                accentuated presence as the market leader.
-              </h6> */}
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-6">
@@ -73,19 +58,6 @@ const Aboutmain = () => {
           </div>
         </div>
       </div>
-      {/* <div className={aboutcss.secondDiv}>
-        <div className={aboutcss.first__part}>
-        <h2 className={aboutcss.headeing__h2} >ABOUT SELTEQ</h2>
-        <p className={aboutcss.para__tag}><span>Headquartered in London, we focus on business optimization and streamlining business process methodologies via our cutting-edge technological reforms.</span></p>
-        <p className={aboutcss.para__tag}><span>We set businesses apart by fulfilling all their IT and digital needs. Being a digital transformation stalwart, Selteq’s proactive approach and a keen eye on futuristic developments allow us to untangle complex issues.</span></p>
-        <p className={aboutcss.para__tag}><span>Our fascinating and pixel-perfect design combined with a functional website, App, or internal software − using the revolutionary tools, insights, and analysis − help businesses achieve a customer-friendly online presence made to impress.</span></p>
-        <p className={aboutcss.para__tag}><span>Be it in Banking &amp; Finance, Health, and Medical, E-commerce, Education, or ERP, we develop bespoke and scalable software solutions that deliver a competitive advantage to our clients. We help businesses increase their revenue manifold. We do this by designing attractive marketing strategies that make businesses climb the rankings on search engines. Moreover, our digital evolution specialists − focused on expanding businesses− help driving loads of credible traffic and convert that traffic into business, making them highly lucrative.</span></p>
-        <p className={aboutcss.para__tag}><span>We thoroughly assess client operations, people, processes, and audiences to carefully devise bespoke IT solutions to help businesses achieve continuous organizational improvements. Our futuristic business enhancement tools coupled with quality standardization practices will help businesses enjoy an accentuated presence as the market leader.</span></p>
-        </div>
-        <div className={aboutcss.second__part}>
-        <Image src={AboutPic} className={aboutcss.aboutPic} />
-        </div>
-      </div> */}
 
       <div className="col-md-12 p-0 mt-5">
         <div className={styles1.background_grad_sec2}>

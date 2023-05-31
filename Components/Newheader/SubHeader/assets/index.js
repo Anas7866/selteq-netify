@@ -7,10 +7,13 @@ import metavers from "./ankrMetaverse.png";
 import devops from "./chart21devOps.png";
 import document from "./document.png";
 import dummy from "./dummy.jpg";
-import plexaar from "./plexaar.png";
-import expert from "./expert.png";
+import plexaar from "./plexaar2.png";
+import expert2 from "./expert2.png";
 import chelsford from "./chelsford.png";
 import deltrum from "./deltrum.png";
+import microsoft from "./microsoft.png";
+import oracle from "./oracle.png";
+import expertApp from "./Layer_1.png"
 
 export {
   web,
@@ -23,7 +26,10 @@ export {
   document,
   dummy,
   plexaar,
-  expert,
+  expert2,
   chelsford,
   deltrum,
+  microsoft,
+  oracle,
+    expertApp
 };

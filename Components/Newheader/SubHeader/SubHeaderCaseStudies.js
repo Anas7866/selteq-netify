@@ -3,7 +3,7 @@ import Styles from "./SubHeader.module.css";
 import Image from "next/image";
 import { SubHeaderItem } from "./Reusable/SubHeaderItem";
 import { SubHeaderMenuItem } from "./SubHeaderMenuItem";
-import { expert, plexaar, chelsford, deltrum, dummy } from "./assets";
+import {expert, plexaar, chelsford, deltrum, dummy, microsoft, oracle, expert2, expertApp} from "./assets";
 
 export const SubHeaderCaseStudies = ({ handleClose }) => {
   const [showSoftwares, setShowSoftwares] = useState(false);
@@ -24,14 +24,14 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
                 title="Expert"
                 desc="An on-demand service app iOS & Android case study"
                 style="red"
-                link="/case-study-expert"
+                link="/case-studies/Expert-App"
               />
             </div>
             <div onClick={() => handleClose()}>
               <SubHeaderItem
                 icon="web"
                 title="Chelsford"
-                desc="LMS"
+                desc="Premier Learning Management System & Student Portal"
                 style="green"
                 link="/under-development"
               />
@@ -40,7 +40,7 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
               <SubHeaderItem
                 icon="software"
                 title="London Franchise"
-                desc="Expert franchise program "
+                desc="Expert Medical Franchise System in London "
                 style="yellow"
                 link="/under-development"
               />
@@ -64,7 +64,7 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
               <SubHeaderItem
                 icon="mobile"
                 title="Buzz"
-                desc="communication system"
+                desc="Optimize Efficiency with Communication Software"
                 style="red"
                 link="/under-development"
               />
@@ -73,7 +73,7 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
               <SubHeaderItem
                 icon="web"
                 title="iReach"
-                desc="Present the onboarding system "
+                desc="Onboarding Software for SaaS Companies"
                 style="green"
                 link="/under-development"
               />
@@ -84,7 +84,7 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
                 title="Live Chat System"
                 desc="A multi-purpose chat system for customers & businesses"
                 style="yellow"
-                link="/live-chat-system"
+                link="/case-studies/live-chat-system"
               />
             </div>
             <div onClick={() => handleClose()}>
@@ -93,7 +93,7 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
                 title="Plexaar"
                 desc="A leading CRM solution to track business operations"
                 style="green"
-                link="/case-study-plexarr"
+                link="/case-studies/Plexarr"
               />
             </div>
           </div>
@@ -149,36 +149,38 @@ export const SubHeaderCaseStudies = ({ handleClose }) => {
         </div>
       </div>
       <div className={Styles.alignSubHeaderPortfolio}>
+        <p>Our partners</p>
         <div className={Styles.subHeaderPortfolio}>
           <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
+              src={microsoft}
+              alt="Microsoft"
+              style={{ width: "6.5vw", height: "1.5vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+              src={oracle}
+              alt="Oracle"
+              style={{ width: "7.5vw", height: "1.5vw" }}
+              className={Styles.imgHover}
+          />
+
+          <Image
+              src={expert2}
+              alt="Expert"
+              style={{ width: "6vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={deltrum}
-            alt="Deltrum"
-            style={{ width: "4.5vw", height: "2vw" }}
+              src={plexaar}
+              alt="Plexaar"
+              style={{ width: "5.5vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
           <Image
-            src={chelsford}
-            alt="Chelsford"
-            style={{ width: "6vw", height: "2vw" }}
-          />
-          <Image
-            src={expert}
-            alt="Expert"
-            style={{ width: "4vw", height: "2vw" }}
-          />
-          <Image
-            src={plexaar}
-            alt="Plexaar"
-            style={{ width: "4vw", height: "2vw" }}
+              src={expertApp}
+              alt="Expert"
+              style={{ width: "7vw", height: "2vw" }}
+              className={Styles.imgHover}
           />
         </div>
       </div>
